@@ -10,11 +10,12 @@ A high-performance order matching engine implemented in C++ for simulating high-
 - Signal handling for graceful shutdown.
 
 ## Performance
-- **Benchmark**: Processed 1,000,000 orders in 32,353.6 µs.
-- **Latency**: 3,235 ns per order.
-- **Throughput**: 309,085 orders/sec.
-- **Trades Generated**: 5,263.
-- **Total Runtime**: 185 ms (including initialization and shutdown).
+- **Benchmark**: Processed **10,000 orders in 30,405.7 µs (30.4 ms)**.
+- **Latency**: **3,040 ns (3.04 µs) per order**.
+- **Throughput**: **328,886 orders/sec**.
+- **Trades Generated**: **4,997**.
+- **Total Runtime**: **416 ms** (including initialization, tests, and shutdown).
+- **Note**: Optimization is ongoing! Planning to integrate lock-free queues and sharding to target millions of orders/sec.
 
 ## Requirements
 - C++17 compiler (e.g., g++ 13.3.0)
