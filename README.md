@@ -29,6 +29,12 @@ A high-performance order matching engine implemented in C++ for simulating high-
    git clone https://github.com/GauranshWh/Order_matching_engine.git
    cd Order_matching_engine
 
-## Run 
-  rm -rf build/* 
-  ./run.sh
+
+2. Build 
+   mkdir -p build
+   cd build
+   cmake ..
+   
+4. Run
+   make
+   ./run.sh
