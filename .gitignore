@@ -1,0 +1,6 @@
+/.vscode
+/build
+/main.cpp
+/matching_engine
+/output.log
+/perf.data
