@@ -26,8 +26,8 @@ A high-performance order matching engine implemented in C++ for simulating high-
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/hft-matching-engine.git
-   cd hft-matching-engine
+   git clone https://github.com/GauranshWh/Order_matching_engine.git
+   cd Order_matching_engine
 
 ## Run 
   rm -rf build/* 
